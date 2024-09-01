@@ -19,7 +19,7 @@ export default function Home() {
     <div className="min-h-screen relative">
       <Spline
         scene="https://prod.spline.design/iWU8kp9KqO0mXuQZ/scene.splinecode"
-        className="spline absolute inset-0 z-0 object-cover"
+        className="spline absolute inset-0 z-0"
       />
 
       <Navbar />
