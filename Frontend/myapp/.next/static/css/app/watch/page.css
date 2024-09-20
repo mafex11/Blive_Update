@@ -1,0 +1,27 @@
+/*!*************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[12].use[3]!./style/watch.css ***!
+  \*************************************************************************************************************************************************************************************************************************************************************/
+:root{
+    --black:#0e0e0e;
+    --white:#ffffff;
+    --blue:#0026ff;
+    --marginthree : 50px;
+}
+
+body{
+    background-color: var(--black);
+}
+
+.watch{
+    border: 3px solid var(--blue);
+    border-radius: 20px;
+    margin: 30px;
+}
+
+.watchtitle{
+    color: var(--white);
+    font-weight: 700;
+    margin: 30px;
+    margin-left: 30rem;
+
+}
