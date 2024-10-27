@@ -1,4 +1,10 @@
 {
+  "app\\startStream\\page.js -> @temple-wallet/dapp": {
+    "id": "app\\startStream\\page.js -> @temple-wallet/dapp",
+    "files": [
+      "static/chunks/_app-pages-browser_node_modules_temple-wallet_dapp_dist_index_module_js.js"
+    ]
+  },
   "node_modules\\@splinetool\\runtime\\build\\runtime.js -> ./boolean.js": {
     "id": "node_modules\\@splinetool\\runtime\\build\\runtime.js -> ./boolean.js",
     "files": [
