@@ -1,14 +1,10 @@
 {
-  "/_not-found/page": "app/_not-found/page.js",
-  "/api/create-stream/route": "app/api/create-stream/route.js",
-  "/api/register/route": "app/api/register/route.js",
-  "/api/stream-status/route": "app/api/stream-status/route.js",
-  "/api/streams/[id]/route": "app/api/streams/[id]/route.js",
-  "/api/streams/active/route": "app/api/streams/active/route.js",
-  "/api/update-stream-status/route": "app/api/update-stream-status/route.js",
-  "/metaMaskLogin/page": "app/metaMaskLogin/page.js",
   "/page": "app/page.js",
+  "/api/stream-status/route": "app/api/stream-status/route.js",
   "/startStream/page": "app/startStream/page.js",
-  "/stream/[id]/page": "app/stream/[id]/page.js",
-  "/watch/page": "app/watch/page.js"
+  "/api/update-stream-status/route": "app/api/update-stream-status/route.js",
+  "/api/streams/active/route": "app/api/streams/active/route.js",
+  "/watch/page": "app/watch/page.js",
+  "/api/streams/[id]/route": "app/api/streams/[id]/route.js",
+  "/stream/[id]/page": "app/stream/[id]/page.js"
 }
