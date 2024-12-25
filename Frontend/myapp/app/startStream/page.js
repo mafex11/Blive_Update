@@ -6,6 +6,8 @@ import { useRouter } from 'next/navigation';
 import detectEthereumProvider from '@metamask/detect-provider';
 import Navbar from '../../components/Navbar';
 import "../../style/startstream.css"
+import { BackgroundBeams } from "../../components/ui/background-beams";
+import { AuroraBackground } from "@/components/ui/aurora-background"; // Adjust the import path based on your project structure
 
 const StartStream = () => {
   const [streamTitle, setStreamTitle] = useState('');
@@ -116,8 +118,10 @@ const StartStream = () => {
   };
 
   return (
+    
     <div className="p-4 max-w-4xl "> 
       <Navbar />
+      {/* <BackgroundBeams className="absolute top-0 left-0 z-0" /> */}
       <div className='wholeContainer'>
 
       <h1 className="text-2xl font-bold text1">Start Stream</h1>

@@ -55,10 +55,10 @@ canvas{
   font-weight: 600;
 }
 
-.title2:hover {
+/* .title2:hover {
   cursor: pointer;
   text-shadow: 2px 2px 10px var(--blue);
-}
+} */
 
 /* Responsive Buttons */
 .metabutton1, .WorkButton1 {
@@ -78,9 +78,9 @@ canvas{
   
 }
 
-.metabutton1:hover, .AboutButton1:hover {
+/* .metabutton1:hover, .AboutButton1:hover {
   background-color: #0e0e0e5d;
-}
+} */
 
 /* Media Queries */
 @media (min-width: 768px) {
@@ -90,6 +90,7 @@ canvas{
 
   .title2 {
     font-size: 4rem;
+    
   }
 
   .metabutton1, .AboutButton1 {
